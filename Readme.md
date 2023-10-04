@@ -1,5 +1,5 @@
 
-![Logo](./backend/landing/logo.png)
+![Logo](./landing/assets/logo.png)
 
 
 # NIT miniMap
