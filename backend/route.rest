@@ -1,0 +1,163 @@
+GET http://localhost:3000/timetable
+
+###
+
+GET http://localhost:3000/timetable/Monday/CS/A/1
+
+###
+
+GET http://localhost:3000/timetable/Monday/CS/A/1/08_30_00
+
+###
+
+GET http://localhost:3000/timetable/getSub/Dr_Mayank_Dave/CS/A/1
+
+###
+
+GET http://localhost:3000/timetable/Monday/Dr_Mayank_Dave
+
+###
+
+GET http://localhost:3000/timetable/Monday
+
+###
+
+POST http://localhost:3000/timetable/
+Content-Type: application/json
+
+{
+    "subject": "Operating System",
+    "type": "Practical",
+    "location": "Lab-1",
+    "day": "Monday",
+    "start_time": "10:40:00",
+    "end_time": "12:30:00",
+    "teacher": "Dr Mayank Dave",
+    "branch": "CS",
+    "section": "A",
+    "subsection": 1
+}
+
+###
+
+DELETE  http://localhost:3000/timetable/63cf63ac604073bc496dd2a3
+
+###
+
+PATCH  http://localhost:3000/timetable/63cd3f1c36726c244b861174
+Content-Type: application/json
+
+{
+    "subject": "Microprocessor & Interfacing", 
+    "type": "Lecture",
+    "location": "L-2",
+    "day": "Wednesday",
+    "start_time": "16:30:00",
+    "end_time": "17:25:00",
+    "teacher": "Dr Mohit Dua",
+    "branch": "CS",
+    "section": "A",
+    "subsection": 4
+}
+
+###
+
+PATCH  http://localhost:3000/timetable/63cd3f1c36726c244b861174
+Content-Type: application/json
+
+{
+    "name": "Industry & Entrepreneurship Cell",
+    "password": "Icell@Techspardha",
+    
+}
+
+### TEACHER'S ROUTES AHEAD
+
+GET http://localhost:3000/teacherdb
+
+###
+
+GET http://localhost:3000/teacherdb/63cfcb285b0c811aea2d4611
+
+###
+
+POST http://localhost:3000/teacherdb/
+Content-Type: application/json
+
+{
+    "name": "Dr Mayank Dave",
+    "password": "Mayank@Teacher"
+}
+
+###
+
+DELETE  http://localhost:3000/teacherdb/63cf63ac604073bc496dd2a3
+
+### CLUB'S ROUTES AHEAD
+
+GET http://localhost:3000/clubdb
+
+###
+
+GET http://localhost:3000/clubdb/Technobyte
+
+
+###
+
+POST http://localhost:3000/clubdb/
+Content-Type: application/json
+
+{
+    "name": "Spic",
+    "password": "Spic@Techspardha"
+}
+
+###
+
+DELETE  http://localhost:3000/clubdb/63cf63ac604073bc496dd2a3
+
+###
+
+PATCH http://localhost:3000/clubdb/63d7ed4cdc24337a160417eb
+Content-Type: application/json
+
+{
+    "name": "Spic",
+    "password": "Spic@Techspardha"
+}
+
+### STUDENT'S ROUTES AHEAD
+
+GET http://localhost:3000/studentdb
+
+###
+
+GET http://localhost:3000/studentdb/1211202
+
+###
+
+POST http://localhost:3000/studentdb/
+Content-Type: application/json
+
+{
+    "name" : "Vansh Sukhija",
+    "password" : "bunsss",
+    "branch" : "CS",
+    "subsection" : 2,
+    "roll_no" : 12112021,
+    "domain_id" : "12112021@nitkkr.ac.in"
+}
+
+###
+
+DELETE  http://localhost:3000/studentdb/63cf63ac604073bc496dd2a3
+
+### OTP ROUTE AHEAD
+
+POST http://localhost:3000/otp/
+Content-Type: application/json
+
+{
+    "to" : "tusharkaler450@gmail.com",
+    "otp": 69696
+}
