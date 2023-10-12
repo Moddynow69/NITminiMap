@@ -65,8 +65,8 @@ http://localhost:3000
 
 
 ## Screenshots
+![Screenshot 2023-10-12 160640](https://github.com/Moddynow69/NITminiMap/assets/113186420/76a580c9-b1c3-4ea8-99a2-2744e617d169)
 ![Screenshot 2023-05-07 003546](https://user-images.githubusercontent.com/102471951/236643598-9786252f-84bf-4628-a9ff-cb0ee032fb4b.png)
-
 ![Landing Page](https://user-images.githubusercontent.com/102471951/236644180-163eb2d3-10eb-4ecb-aacf-abf0a45bba08.png)
 ![Marker](https://user-images.githubusercontent.com/102471951/236644219-7266b454-ef3b-4554-86dd-b381aa3ccc1d.png)
 ![Directions](https://user-images.githubusercontent.com/102471951/236644213-47ef1404-fc63-48aa-a5e9-10f63e003958.png)
