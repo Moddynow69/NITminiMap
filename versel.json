@@ -1,0 +1,15 @@
+{
+    "version": "1.7",
+    "build": [
+        {
+            "src": "server.js",
+            "use": "@versel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ],
+}

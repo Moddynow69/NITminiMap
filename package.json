@@ -5,6 +5,7 @@
   "main":"server.js",
   "type": "module",
   "scripts": {
+    
     "dev": "nodemon server.js",
     "page": "open-cli ./index.html",
     "start": "start http://localhost:3000/index.html & nodemon server.js"
